@@ -1,0 +1,30 @@
+{
+  "name": "@sean9999/differ",
+  "version": "1.0.1",
+  "description": "diff blobs of json",
+  "main": "index.js",
+  "bin": {
+    "differ": "index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stjosephcontent/differ.git"
+  },
+  "keywords": [
+    "diff",
+    "json"
+  ],
+  "author": "Sean Macdonald <sean.macdonald@stjoseph.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stjosephcontent/differ/issues"
+  },
+  "homepage": "https://github.com/stjosephcontent/differ#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "diff": "^2.2.1"
+  }
+}
